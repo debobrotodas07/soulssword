@@ -1,0 +1,13 @@
+name: SoulSwords
+version: "1.0"
+main: com.soulswords.SoulSwords
+api-version: "26.2"
+description: Kill-to-level soulbound swords with an Immortal execute ability
+commands:
+  soulsword:
+    description: Admin command to give or set a soul sword
+    usage: /soulsword give <player> [tier 0-6]
+    permission: soulswords.admin
+permissions:
+  soulswords.admin:
+    default: op

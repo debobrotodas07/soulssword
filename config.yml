@@ -1,0 +1,11 @@
+# Kills needed to REACH each tier (7 numbers):
+# Wooden, Stone, Iron, Golden, Diamond, Netherite, Immortal
+kills-required: [0, 1, 3, 5, 7, 15, 20]
+
+# true = killing mobs also counts. false = only player kills count.
+count-mob-kills: false
+
+# Immortal sword: right-click a player to mark them, then left-click
+# that same player within mark-seconds to kill them instantly.
+execute-cooldown-seconds: 100
+mark-seconds: 10
